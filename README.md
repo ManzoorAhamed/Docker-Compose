@@ -55,7 +55,7 @@ To stop and remove all the containers use the down command
 docker-compose down
 ```
 
-Use -v if you need to remove the database volume which is used to persist the database:
+Use -v if you need to remove the volumes which is used to persist the database and wordpress storage:
 
 ```
 docker-compose down -v
