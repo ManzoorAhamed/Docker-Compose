@@ -33,7 +33,7 @@ The compose file make sure the container launch in an order, So the connectivity
 
 ## Usage
 
-## Starting the containers
+### Starting the containers
 
 You can start the container with the up command in daemon mode or by using the start command
 
@@ -73,3 +73,8 @@ The default username is `root`, and the password is the same as supplied in the 
 - As it is evident from the name it provides resource usage, performance characteristics & related information about the containers running on the cloud.
 - It is an open-source tool & runs as a daemon process in the background collecting, processing & aggregating useful DevOps information.
 - The tool has native support for Docker & enables us to track historical resource usage. This helps in understanding the resource consumption, memory footprint of the code running on the servers.
+
+## Accessing the Containers
+- WordPress	`localhost:8080`
+- phpMyAdmin	`localhost:8000`
+- cAdvisor	`localhost:8081`
